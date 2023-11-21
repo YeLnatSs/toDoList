@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-lg mx-auto flex flex-col items-center justify-center h-screen">
+  <div class="max-w-lg mx-auto md:px-0 px-4 flex flex-col items-center justify-center h-screen">
     <h1 class="text-center text-3xl mb-5 font-bold">To do list</h1>
     <search-input v-model="search" />
     <Form v-model="item" @submit="submit" />
